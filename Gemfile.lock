@@ -350,7 +350,7 @@ DEPENDENCIES
   yard
 
 RUBY VERSION
-   ruby 2-4
+   ruby 2
 
 BUNDLED WITH
    1.15.3
