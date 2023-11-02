@@ -3,7 +3,7 @@
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/ror_ecommerce](https://github.com/nice-org-two/ror_ecommerce)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|54<br/>Tools used|27<br/>Contributors|11/01/23 <br/>Report generated|11/01/23<br/>Last commit date|
+|54<br/>Tools used|28<br/>Contributors|11/02/23 <br/>Report generated|11/01/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
