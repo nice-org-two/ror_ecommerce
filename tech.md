@@ -3,7 +3,7 @@
 # Stack Report
 ![](https://img.stackshare.io/repo.svg "repo") [nice-org-two/ror_ecommerce](https://github.com/nice-org-two/ror_ecommerce)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|53<br/>Tools used|27<br/>Contributors|11/01/23 <br/>Report generated|08/31/23<br/>Last commit date|
+|54<br/>Tools used|28<br/>Contributors|11/02/23 <br/>Report generated|11/01/23<br/>Last commit date|
 |------|------|------|------|
 </div>
 
@@ -70,7 +70,7 @@
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (5)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (6)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2595/capybara.png' alt='Capybara'>
@@ -84,6 +84,14 @@
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
   <br>
   <sub><a href="http://git-scm.com/">Git</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'>
+  <br>
+  <sub><a href="https://istio.io/">Istio</a></sub>
   <br>
   <sub></sub>
 </td>

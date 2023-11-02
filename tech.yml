@@ -1,11 +1,11 @@
 repo_name: nice-org-two/ror_ecommerce
-report_id: ecd26abfdbd59d71c3edd7a5bdb0ee2c
+report_id: dee1ef758843b92b457392b18c72b4ee
 repo_type: Public
-timestamp: '2023-11-01T05:54:49+00:00'
-requested_by: 
+timestamp: '2023-11-02T18:15:34+00:00'
+requested_by: bob-wise0
 provider: github
 branch: master
-detected_tools_count: 53
+detected_tools_count: 54
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -99,6 +99,18 @@ tools:
   imageURL: https://img.stackshare.io/service/1046/git.png
   detection_source:
   - Repo Metadata
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source:
+  - tech.yml
 - name: RSpec
   description: Behaviour Driven Development for Ruby
   website_url: https://rspec.info/
