@@ -1,7 +1,7 @@
 repo_name: nice-org-two/ror_ecommerce
-report_id: 4eb644c9375104506fd722feb0c966c3
+report_id: f298f2464862634220f79b6266ee87ee
 repo_type: Public
-timestamp: '2023-11-07T12:49:14+00:00'
+timestamp: '2023-11-08T07:33:02+00:00'
 requested_by: bob-wise0
 provider: github
 branch: master
@@ -14,7 +14,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/6727/css.png
+  image_url: https://img.stackshare.io/service/6727/css.png
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -24,7 +24,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/1209/javascript.jpeg
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -35,7 +35,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  imageURL: https://img.stackshare.io/service/989/ruby.png
+  image_url: https://img.stackshare.io/service/989/ruby.png
   detection_source_url: ".ruby-version"
   detection_source: ".ruby-version"
 - name: Rails
@@ -47,7 +47,7 @@ tools:
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
-  imageURL: https://img.stackshare.io/service/990/x57_Lorv.png
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: jQuery
@@ -58,7 +58,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript UI Libraries
-  imageURL: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
   detection_source: Gemfile
 - name: MySQL
   description: The world's most popular open source database
@@ -67,7 +67,7 @@ tools:
   hosted_saas: false
   category: Data Stores
   sub_category: Databases
-  imageURL: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
   detection_source: Gemfile
 - name: Capybara
   description: Acceptance test framework for web applications
@@ -78,7 +78,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
-  imageURL: https://img.stackshare.io/service/2595/capybara.png
+  image_url: https://img.stackshare.io/service/2595/capybara.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: Git
@@ -88,7 +88,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Version Control System
-  imageURL: https://img.stackshare.io/service/1046/git.png
+  image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
 - name: Istio
   description: Open platform to connect, manage, and secure microservices, by Google,
@@ -99,7 +99,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Microservices Tools
-  imageURL: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
   detection_source: tech.yml
 - name: RSpec
   description: Behaviour Driven Development for Ruby
@@ -110,7 +110,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
-  imageURL: https://img.stackshare.io/service/2539/logo.png
+  image_url: https://img.stackshare.io/service/2539/logo.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: RubyGems
@@ -120,7 +120,7 @@ tools:
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Package Managers
-  imageURL: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
   detection_source: Gemfile
 - name: Travis CI
   description: A hosted continuous integration service for open source and private
@@ -130,7 +130,7 @@ tools:
   hosted_saas: true
   category: Build, Test, Deploy
   sub_category: Continuous Integration
-  imageURL: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
   detection_source: ".travis.yml"
 - name: Heroku
   description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
@@ -140,7 +140,7 @@ tools:
   hosted_saas: true
   category: Application Hosting
   sub_category: Platform as a Service
-  imageURL: https://img.stackshare.io/service/133/3wgIDj3j.png
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
   detection_source: config/environments/production.rb
 - name: Paperclip
   description: 'A file attachment management for ActiveRecord '
@@ -149,7 +149,7 @@ tools:
   hosted_saas: false
   category: Assets and Media
   sub_category: File Uploads
-  imageURL: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
+  image_url: https://img.stackshare.io/service/2542/AqsQWFu-_400x400.jpg
   detection_source: Gemfile
 - name: Twilio SendGrid
   description: Email Delivery. Simplified.
@@ -158,7 +158,7 @@ tools:
   hosted_saas: true
   category: Communications
   sub_category: Transactional Email
-  imageURL: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
   detection_source: config/environments/production.rb
 - name: UglifyJS
   description: A JavaScript parser, minifier, compressor and beautifier toolkit.
@@ -167,7 +167,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: Javascript Utilities & Libraries
-  imageURL: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
   detection_source: Gemfile
 - name: RedCloth
   description: Textile parser for Ruby
@@ -178,7 +178,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18977/default_bc359c39d5bb5b07850d1bca94ab8afbc55734a2.png
+  image_url: https://img.stackshare.io/package/18977/default_bc359c39d5bb5b07850d1bca94ab8afbc55734a2.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -197,7 +197,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
+  image_url: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: activemerchant
@@ -210,7 +210,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19206/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
+  image_url: https://img.stackshare.io/package/19206/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: authlogic
@@ -222,7 +222,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19377/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
+  image_url: https://img.stackshare.io/package/19377/default_63483bd20cbd1c069543c0b924fcbd88fd2c7de1.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: autotest-rails-pure
@@ -233,7 +233,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19251/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
+  image_url: https://img.stackshare.io/package/19251/default_98f442e49a9cf6ba040115f23dce11c5a9c322be.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: awesome_nested_set
@@ -245,7 +245,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19299/default_85ad5a81d9f6bf567a15cbb73534a6e4443271eb.png
+  image_url: https://img.stackshare.io/package/19299/default_85ad5a81d9f6bf567a15cbb73534a6e4443271eb.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: aws-sdk
@@ -257,7 +257,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18869/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  image_url: https://img.stackshare.io/package/18869/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: better_errors
@@ -269,7 +269,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -288,7 +288,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: bluecloth
@@ -300,7 +300,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19065/default_0de2dc998e38d7217cd579e9d3b17d38e75b679e.png
+  image_url: https://img.stackshare.io/package/19065/default_0de2dc998e38d7217cd579e9d3b17d38e75b679e.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: byebug
@@ -312,7 +312,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: cancancan
@@ -324,7 +324,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19191/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
+  image_url: https://img.stackshare.io/package/19191/default_2266a6c0e2693d55b1999a7c5db4be13e5720232.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: chronic
@@ -336,7 +336,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: compass-rails
@@ -348,7 +348,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19229/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
+  image_url: https://img.stackshare.io/package/19229/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: database_cleaner
@@ -360,7 +360,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
+  image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: dynamic_form
@@ -373,7 +373,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
+  image_url: https://img.stackshare.io/package/19459/default_de854f0c757466f4cce7c01e288f5f01a5e38432.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: email_spec
@@ -385,7 +385,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19654/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
+  image_url: https://img.stackshare.io/package/19654/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: factory_girl
@@ -398,7 +398,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18878/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  image_url: https://img.stackshare.io/package/18878/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: factory_girl_rails
@@ -411,7 +411,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18885/default_2ee21c0657d6b4f7c9a25f371c4eb30f678e82bb.png
+  image_url: https://img.stackshare.io/package/18885/default_2ee21c0657d6b4f7c9a25f371c4eb30f678e82bb.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: faker
@@ -423,7 +423,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: friendly_id
@@ -436,7 +436,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: jbuilder
@@ -448,7 +448,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: jquery-rails
@@ -461,7 +461,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -498,7 +498,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
+  image_url: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -536,7 +536,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -556,7 +556,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
+  image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: mocha
@@ -568,7 +568,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: mysql2
@@ -580,7 +580,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
+  image_url: https://img.stackshare.io/package/18883/default_947bd37125b8812cb816bc3cf571b13df90a4fe0.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: nokogiri
@@ -592,7 +592,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -800,7 +800,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19058/default_cafacebf9602efba5c9e675f02335a1684f56941.png
+  image_url: https://img.stackshare.io/package/19058/default_cafacebf9602efba5c9e675f02335a1684f56941.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: rails-controller-testing
@@ -812,7 +812,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
+  image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: rake
@@ -824,7 +824,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -843,7 +843,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
+  image_url: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -862,7 +862,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: sass-rails
@@ -874,7 +874,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: sprockets
@@ -887,7 +887,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
@@ -907,7 +907,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: will_paginate
@@ -920,7 +920,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
+  image_url: https://img.stackshare.io/package/18959/default_d56e7cc665032604d9f725997e6ccc641992a4f2.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
 - name: yard
@@ -932,7 +932,7 @@ tools:
   hosted_saas: false
   category: Libraries
   sub_category: RubyGems Packages
-  imageURL: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
   detection_source_url: Gemfile.lock
   detection_source: Gemfile
   vulnerabilities:
