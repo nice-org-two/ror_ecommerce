@@ -1,8 +1,8 @@
 repo_name: nice-org-two/ror_ecommerce
-report_id: 638cd61cba6a1d7c683bfdfb9aefddaf
+report_id: d4302420b2a2430c0215ca77936f954f
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-17T09:02:57+00:00'
+timestamp: '2024-03-22T11:07:35+00:00'
 requested_by: bob-wise0
 provider: github
 branch: master
@@ -208,6 +208,228 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-09-14 23:27:37.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2014-11-30 22:00:19.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri does not forbid namespace nodes in XPointer ranges
+    cve_id: CVE-2016-4658
+    cve_url: https://github.com/advisories/GHSA-fr52-4hqw-p27f
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.7.1
+  - name: Nokogiri Command Injection Vulnerability
+    cve_id: CVE-2019-5477
+    cve_url: https://github.com/advisories/GHSA-cr5j-953j-xw5p
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.10.4
+  - name: Nokogiri vulnerable to libxslt protection mechanism bypass
+    cve_id: CVE-2019-11068
+    cve_url: https://github.com/advisories/GHSA-qxcg-xjjg-66mj
+    detected_date: Mar 9
+    severity: critical
+    first_patched: 1.10.3
+  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
+      situation
+    cve_id: CVE-2020-7595
+    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.8
+  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
+    cve_id: CVE-2021-3518
+    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri implementation of libxslt lacks integer overflow checks
+    cve_id: CVE-2017-5029
+    cve_url: https://github.com/advisories/GHSA-pf6m-fxpq-fg8v
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.7.2
+  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
+      on JRuby
+    cve_id: CVE-2021-41098
+    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
+    detected_date: Sep 28
+    severity: high
+    first_patched: 1.12.5
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: libxslt Type Confusion vulnerability that affects Nokogiri
+    cve_id: CVE-2019-13118
+    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri NULL Pointer Dereference
+    cve_id: CVE-2018-14404
+    cve_url: https://github.com/advisories/GHSA-6qvp-r6r3-9p7h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.5
+  - name: Out-of-bounds read in nokogiri
+    cve_id: CVE-2017-9050
+    cve_url: https://github.com/advisories/GHSA-8c56-cpmw-89x7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.8.1
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-15412
+    cve_url: https://github.com/advisories/GHSA-r58r-74gx-6wx3
+    detected_date: Aug 26
+    severity: high
+    first_patched: 1.8.2
+  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
+    cve_id: CVE-2021-3517
+    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
+    cve_id: CVE-2019-5815
+    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
+      vulnerability
+    cve_id: CVE-2019-18197
+    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
+    cve_id: CVE-2017-16932
+    cve_url: https://github.com/advisories/GHSA-x2fm-93ww-ggvx
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.8.1
+  - name: Uninitialized read in Nokogiri gem
+    cve_id: CVE-2019-13117
+    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Cross-site Scripting in loofah
+    cve_id: CVE-2018-8048
+    cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 1.8.3
+  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
+    detected_date: Mar 19
+    severity: moderate
+    first_patched: 1.15.6
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.15.6
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Uncontrolled resource consumption in nokogiri
+    cve_id: CVE-2017-18258
+    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.2
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
 - name: RedCloth
   description: Textile parser for Ruby
   package_url: https://rubygems.org/RedCloth
@@ -229,6 +451,226 @@ tools:
     detected_date: Jun 7
     severity: high
     first_patched: 4.3.3
+- name: json
+  description: This is a JSON implementation as a Ruby extension in C
+  package_url: https://rubygems.org/json
+  version: 2.1.0
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-09 05:50:51.000000000 Z
+  vulnerabilities:
+  - name: Unsafe object creation in json RubyGem
+    cve_id: CVE-2020-10663
+    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.3.0
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+  vulnerabilities:
+  - name: Sprockets path traversal leads to information leak
+    cve_id: CVE-2018-3760
+    cve_url: https://github.com/advisories/GHSA-pr3h-jjhj-573x
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.7.2
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  version: 0.9.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Dean Perry
+  last_updated_on: 2012-08-13 21:35:11.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary file read vulnerability in yard server
+    cve_id: CVE-2017-17042
+    cve_url: https://github.com/advisories/GHSA-gj4p-3wh3-2rmf
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.11
+  - name: Path Traversal vulnerability that affects yard
+    cve_id: CVE-2019-1020001
+    cve_url: https://github.com/advisories/GHSA-xfhh-rx56-rxcr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.9.20
+  - name: YARD's default template vulnerable to Cross-site Scripting in generated
+      frames.html
+    cve_id: CVE-2024-27285
+    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
+    detected_date: Feb 29
+    severity: moderate
+    first_patched: 0.9.36
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2017-08-15 03:42:00.000000000 Z
+  vulnerabilities:
+  - name: Older releases of better_errors open to Cross-Site Request Forgery attack
+    cve_id: CVE-2021-39197
+    cve_url: https://github.com/advisories/GHSA-w3j4-76qw-wwjm
+    detected_date: Sep 8
+    severity: moderate
+    first_patched: 2.8.0
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: bob-wise0
+  last_updated_on: 2022-07-14 17:49:26.000000000 Z
+  vulnerabilities:
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
+    cve_id: CVE-2019-11358
+    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+    detected_date: May 31
+    severity: moderate
+    first_patched: 4.3.4
+- name: jquery-ui-rails
+  description: JQuery UI's JavaScript
+  package_url: https://rubygems.org/jquery-ui-rails
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: bob-wise0
+  last_updated_on: 2022-07-14 17:49:26.000000000 Z
+  vulnerabilities:
+  - name: XSS in the `of` option of the `.position()` util in jquery-ui
+    cve_id: CVE-2021-41184
+    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+  - name: XSS in `*Text` options of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41183
+    cve_url: https://github.com/advisories/GHSA-j7qv-pgf6-hvh4
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+  - name: XSS in the `altField` option of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41182
+    cve_url: https://github.com/advisories/GHSA-9gj3-hwp5-pmwc
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 7.0.0
+  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
+      initial text label
+    cve_id: CVE-2022-31160
+    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
+    detected_date: Sep 27
+    severity: moderate
+    first_patched: 7.0.0
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 10.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Torsten Ruger
+  last_updated_on: 2013-12-02 20:33:49.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in Rake
+    cve_id: CVE-2020-8130
+    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 12.3.3
+- name: rmagick
+  description: RMagick is an interface between Ruby and ImageMagick
+  package_url: https://rubygems.org/rmagick
+  version: 2.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
+  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Henner
+  last_updated_on: 2016-11-09 19:51:10.000000000 Z
+  vulnerabilities:
+  - name: memory leak flaw was found in ruby-magick
+    cve_id: CVE-2023-5349
+    cve_url: https://github.com/advisories/GHSA-frgf-8jr5-j2jv
+    detected_date: Nov 1
+    severity: moderate
+    first_patched: 5.3.0
 - name: aasm
   description: AASM is a continuation of the acts-as-state-machine rails plugin
   package_url: https://rubygems.org/aasm
@@ -313,27 +755,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2016-07-11 00:49:10.000000000 Z
-- name: better_errors
-  description: Provides a better error page for Rails and other Rack apps
-  package_url: https://rubygems.org/better_errors
-  version: 2.3.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2017-08-15 03:42:00.000000000 Z
-  vulnerabilities:
-  - name: Older releases of better_errors open to Cross-Site Request Forgery attack
-    cve_id: CVE-2021-39197
-    cve_url: https://github.com/advisories/GHSA-w3j4-76qw-wwjm
-    detected_date: Sep 8
-    severity: moderate
-    first_patched: 2.8.0
 - name: binding_of_caller
   description: Retrieve the binding of a method's caller
   package_url: https://rubygems.org/binding_of_caller
@@ -534,107 +955,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2013-07-14 10:41:58.000000000 Z
-- name: jquery-rails
-  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
-    application
-  package_url: https://rubygems.org/jquery-rails
-  version: 4.3.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: bob-wise0
-  last_updated_on: 2022-07-14 17:49:26.000000000 Z
-  vulnerabilities:
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11023
-    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
-    detected_date: May 5
-    severity: moderate
-    first_patched: 4.4.0
-  - name: jQuery Cross Site Scripting vulnerability
-    cve_id: CVE-2020-23064
-    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
-    detected_date: Jul 8
-    severity: moderate
-    first_patched: 4.4.0
-  - name: Potential XSS vulnerability in jQuery
-    cve_id: CVE-2020-11022
-    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 4.4.0
-  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
-    cve_id: CVE-2019-11358
-    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
-    detected_date: May 31
-    severity: moderate
-    first_patched: 4.3.4
-- name: jquery-ui-rails
-  description: JQuery UI's JavaScript
-  package_url: https://rubygems.org/jquery-ui-rails
-  version: 6.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19034/default_3b4cf18706356e37d5fd855ffc4bc322798b3fd9.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: bob-wise0
-  last_updated_on: 2022-07-14 17:49:26.000000000 Z
-  vulnerabilities:
-  - name: XSS in the `of` option of the `.position()` util in jquery-ui
-    cve_id: CVE-2021-41184
-    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 7.0.0
-  - name: XSS in `*Text` options of the Datepicker widget in jquery-ui
-    cve_id: CVE-2021-41183
-    cve_url: https://github.com/advisories/GHSA-j7qv-pgf6-hvh4
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 7.0.0
-  - name: XSS in the `altField` option of the Datepicker widget in jquery-ui
-    cve_id: CVE-2021-41182
-    cve_url: https://github.com/advisories/GHSA-9gj3-hwp5-pmwc
-    detected_date: Sep 26
-    severity: moderate
-    first_patched: 7.0.0
-  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
-      initial text label
-    cve_id: CVE-2022-31160
-    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
-    detected_date: Sep 27
-    severity: moderate
-    first_patched: 7.0.0
-- name: json
-  description: This is a JSON implementation as a Ruby extension in C
-  package_url: https://rubygems.org/json
-  version: 2.1.0
-  license: Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2017-08-09 05:50:51.000000000 Z
-  vulnerabilities:
-  - name: Unsafe object creation in json RubyGem
-    cve_id: CVE-2020-10663
-    cve_url: https://github.com/advisories/GHSA-jphg-qwrw-7w9g
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.3.0
 - name: launchy
   description: Launchy is helper class for launching cross-platform applications in
     a fire and forget manner
@@ -678,222 +998,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-07-29 04:42:17.000000000 Z
-- name: nokogiri
-  description: Nokogiri
-  package_url: https://rubygems.org/nokogiri
-  version: 1.6.8
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2014-11-30 22:00:19.000000000 Z
-  vulnerabilities:
-  - name: Nokogiri does not forbid namespace nodes in XPointer ranges
-    cve_id: CVE-2016-4658
-    cve_url: https://github.com/advisories/GHSA-fr52-4hqw-p27f
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 1.7.1
-  - name: Nokogiri Command Injection Vulnerability
-    cve_id: CVE-2019-5477
-    cve_url: https://github.com/advisories/GHSA-cr5j-953j-xw5p
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 1.10.4
-  - name: Nokogiri vulnerable to libxslt protection mechanism bypass
-    cve_id: CVE-2019-11068
-    cve_url: https://github.com/advisories/GHSA-qxcg-xjjg-66mj
-    detected_date: Mar 9
-    severity: critical
-    first_patched: 1.10.3
-  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
-      situation
-    cve_id: CVE-2020-7595
-    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.10.8
-  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
-    cve_id: CVE-2021-3518
-    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
-    detected_date: Jul 6
-    severity: high
-    first_patched: 1.11.4
-  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
-    cve_id: CVE-2018-25032
-    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
-    detected_date: Jun 28
-    severity: high
-    first_patched: 1.13.4
-  - name: Nokogiri implementation of libxslt lacks integer overflow checks
-    cve_id: CVE-2017-5029
-    cve_url: https://github.com/advisories/GHSA-pf6m-fxpq-fg8v
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.7.2
-  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
-      on JRuby
-    cve_id: CVE-2021-41098
-    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
-    detected_date: Sep 28
-    severity: high
-    first_patched: 1.12.5
-  - name: libxslt Type Confusion vulnerability that affects Nokogiri
-    cve_id: CVE-2019-13118
-    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
-    detected_date: Mar 9
-    severity: high
-    first_patched: 1.10.5
-  - name: Nokogiri NULL Pointer Dereference
-    cve_id: CVE-2018-14404
-    cve_url: https://github.com/advisories/GHSA-6qvp-r6r3-9p7h
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.8.5
-  - name: Out-of-bounds read in nokogiri
-    cve_id: CVE-2017-9050
-    cve_url: https://github.com/advisories/GHSA-8c56-cpmw-89x7
-    detected_date: Aug 22
-    severity: high
-    first_patched: 1.8.1
-  - name: Nokogiri Inefficient Regular Expression Complexity
-    cve_id: CVE-2022-24836
-    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
-  - name: Nokogiri Improperly Handles Unexpected Data Type
-    cve_id: CVE-2022-29181
-    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
-    detected_date: May 24
-    severity: high
-    first_patched: 1.13.6
-  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
-    cve_id: CVE-2017-15412
-    cve_url: https://github.com/advisories/GHSA-r58r-74gx-6wx3
-    detected_date: Aug 26
-    severity: high
-    first_patched: 1.8.2
-  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
-    cve_id: CVE-2021-3517
-    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
-    detected_date: Mar 9
-    severity: high
-    first_patched: 1.11.4
-  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
-    cve_id: CVE-2019-5815
-    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
-    detected_date: Jul 8
-    severity: high
-    first_patched: 1.10.5
-  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
-      vulnerability
-    cve_id: CVE-2019-18197
-    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
-    detected_date: Jul 8
-    severity: high
-    first_patched: 1.10.5
-  - name: Nokogiri gem, via libxml, is affected by DoS vulnerabilities
-    cve_id: CVE-2017-16932
-    cve_url: https://github.com/advisories/GHSA-x2fm-93ww-ggvx
-    detected_date: Jun 10
-    severity: high
-    first_patched: 1.8.1
-  - name: Uninitialized read in Nokogiri gem
-    cve_id: CVE-2019-13117
-    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
-    detected_date: Jun 10
-    severity: high
-    first_patched: 1.10.5
-  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
-    cve_id: CVE-2021-30560
-    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
-    detected_date: Jun 28
-    severity: high
-    first_patched: 1.13.2
-  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
-    detected_date: May 19
-    severity: high
-    first_patched: 1.13.5
-  - name: Vulnerable dependencies in Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
-    detected_date: Feb 26
-    severity: high
-    first_patched: 1.13.2
-  - name: Denial of Service (DoS) in Nokogiri on JRuby
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
-  - name: Out-of-bounds Write in zlib affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
-  - name: Cross-site Scripting in loofah
-    cve_id: CVE-2018-8048
-    cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
-    detected_date: Jun 10
-    severity: moderate
-    first_patched: 1.8.3
-  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
-    cve_id: CVE-2020-26247
-    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.11.0
-  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
-    detected_date: Oct 18
-    severity: moderate
-    first_patched: 1.13.9
-  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
-    cve_id: CVE-2021-3537
-    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 1.11.4
-  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
-    detected_date: Feb 6
-    severity: moderate
-    first_patched: 1.16.2
-  - name: Uncontrolled resource consumption in nokogiri
-    cve_id: CVE-2017-18258
-    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.8.2
-  - name: XML Injection in Xerces Java affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
-    detected_date: Apr 12
-    severity: moderate
-    first_patched: 1.13.4
-  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
-    detected_date: Apr 12
-    severity: moderate
-    first_patched: 1.14.3
-  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.11.4
 - name: prawn
   description: Prawn is a fast, tiny, and nimble PDF generator for Ruby
   package_url: https://rubygems.org/prawn
@@ -922,48 +1026,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: bob-wise0
   last_updated_on: 2022-07-14 17:49:26.000000000 Z
-- name: rake
-  description: Rake is a Make-like program implemented in Ruby
-  package_url: https://rubygems.org/rake
-  version: 10.5.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Torsten Ruger
-  last_updated_on: 2013-12-02 20:33:49.000000000 Z
-  vulnerabilities:
-  - name: OS Command Injection in Rake
-    cve_id: CVE-2020-8130
-    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 12.3.3
-- name: rmagick
-  description: RMagick is an interface between Ruby and ImageMagick
-  package_url: https://rubygems.org/rmagick
-  version: 2.15.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18925/default_e338e2555176782d684cb0520d8c7d817f6bbe4f.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2016-11-09 19:51:10.000000000 Z
-  vulnerabilities:
-  - name: memory leak flaw was found in ruby-magick
-    cve_id: CVE-2023-5349
-    cve_url: https://github.com/advisories/GHSA-frgf-8jr5-j2jv
-    detected_date: Nov 1
-    severity: moderate
-    first_patched: 5.3.0
 - name: rspec-rails
   description: Rspec-rails is a testing framework for Rails 3+
   package_url: https://rubygems.org/rspec-rails
@@ -992,28 +1054,6 @@ tools:
   detection_source: Gemfile
   last_updated_by: bob-wise0
   last_updated_on: 2022-07-14 17:49:26.000000000 Z
-- name: sprockets
-  description: Sprockets is a Rack-based asset packaging system that concatenates
-    and serves JavaScript
-  package_url: https://rubygems.org/sprockets
-  version: 3.7.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: David Henner
-  last_updated_on: 2016-11-09 19:51:10.000000000 Z
-  vulnerabilities:
-  - name: Sprockets path traversal leads to information leak
-    cve_id: CVE-2018-3760
-    cve_url: https://github.com/advisories/GHSA-pr3h-jjhj-573x
-    detected_date: Aug 22
-    severity: high
-    first_patched: 3.7.2
 - name: uglifier
   description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
     in Ruby
@@ -1044,37 +1084,3 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Henner
   last_updated_on: 2017-08-15 03:42:00.000000000 Z
-- name: yard
-  description: YARD is a documentation generation tool for the Ruby programming language
-  package_url: https://rubygems.org/yard
-  version: 0.9.9
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: https://github.com/nice-org-two/ror_ecommerce/blob/master/Gemfile.lock
-  detection_source: Gemfile
-  last_updated_by: Dean Perry
-  last_updated_on: 2012-08-13 21:35:11.000000000 Z
-  vulnerabilities:
-  - name: Arbitrary file read vulnerability in yard server
-    cve_id: CVE-2017-17042
-    cve_url: https://github.com/advisories/GHSA-gj4p-3wh3-2rmf
-    detected_date: Aug 22
-    severity: high
-    first_patched: 0.9.11
-  - name: Path Traversal vulnerability that affects yard
-    cve_id: CVE-2019-1020001
-    cve_url: https://github.com/advisories/GHSA-xfhh-rx56-rxcr
-    detected_date: Aug 22
-    severity: high
-    first_patched: 0.9.20
-  - name: YARD's default template vulnerable to Cross-site Scripting in generated
-      frames.html
-    cve_id: CVE-2024-27285
-    cve_url: https://github.com/advisories/GHSA-8mq4-9jjh-9xrc
-    detected_date: Feb 29
-    severity: moderate
-    first_patched: 0.9.36
