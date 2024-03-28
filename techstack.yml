@@ -1,8 +1,8 @@
 repo_name: nice-org-two/ror_ecommerce
-report_id: d4302420b2a2430c0215ca77936f954f
+report_id: a9538a8a2738ca89b0ea46cb91db7909
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-22T11:07:35+00:00'
+timestamp: '2024-03-28T09:09:36+00:00'
 requested_by: bob-wise0
 provider: github
 branch: master
@@ -273,12 +273,6 @@ tools:
     detected_date: Sep 28
     severity: high
     first_patched: 1.12.5
-  - name: Out-of-bounds Write in zlib affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
-    detected_date: Apr 12
-    severity: high
-    first_patched: 1.13.4
   - name: libxslt Type Confusion vulnerability that affects Nokogiri
     cve_id: CVE-2019-13118
     cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
@@ -370,66 +364,66 @@ tools:
     detected_date: Apr 12
     severity: high
     first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
   - name: Cross-site Scripting in loofah
     cve_id: CVE-2018-8048
     cve_url: https://github.com/advisories/GHSA-x7rv-cr6v-4vm4
     detected_date: Jun 10
     severity: moderate
     first_patched: 1.8.3
-  - name: Use-after-free in libxml2 via Nokogiri::XML::Reader
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-vcc3-rw6f-jv97
-    detected_date: Mar 19
-    severity: moderate
-    first_patched: 1.15.6
-  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
-    detected_date: Feb 6
-    severity: moderate
-    first_patched: 1.15.6
-  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
-    detected_date: Apr 12
-    severity: moderate
-    first_patched: 1.14.3
-  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
-    cve_id: CVE-2021-3537
-    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
-    detected_date: Jul 6
-    severity: moderate
-    first_patched: 1.11.4
-  - name: Uncontrolled resource consumption in nokogiri
-    cve_id: CVE-2017-18258
-    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.8.2
-  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
-    detected_date: Oct 18
-    severity: moderate
-    first_patched: 1.13.9
-  - name: XML Injection in Xerces Java affects Nokogiri
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
-    detected_date: Apr 12
-    severity: moderate
-    first_patched: 1.13.4
-  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 1.11.4
   - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
     cve_id: CVE-2020-26247
     cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
     detected_date: Aug 22
     severity: moderate
     first_patched: 1.11.0
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
+  - name: Uncontrolled resource consumption in nokogiri
+    cve_id: CVE-2017-18258
+    cve_url: https://github.com/advisories/GHSA-882p-jqgm-f45g
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.8.2
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
 - name: RedCloth
   description: Textile parser for Ruby
   package_url: https://rubygems.org/RedCloth
